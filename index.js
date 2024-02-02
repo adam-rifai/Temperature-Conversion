@@ -13,9 +13,9 @@ document.querySelector("form").addEventListener("submit", function(event) {
 
 function convert() {
     if (radio_1.checked) {
-        result.textContent = `${((numberBox.value * 9/5) + 32).toFixed(2)}°F`;
+        result.textContent = `${((Number(numberBox.value) * 9/5) + 32).toFixed(1)}°F`;
     } else if (radio_2.checked) {
-        result.textContent = `${((numberBox.value - 32) * 5/9).toFixed(2)}°C`;
+        result.textContent = `${((Number(numberBox.value) - 32) * 5/9).toFixed(1)}°C`;
     } else {
         result.textContent = "Select a Unit";
     }

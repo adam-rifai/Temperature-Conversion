@@ -4,17 +4,19 @@ body{
 }
 
 h1{
-  color: rgb(105, 105, 198);
+  color: hsl(348, 87%, 49%);
 }
 
 form{
   text-align: center;
   padding: 10px 20px;
-  /* background-color: rgb(221, 214, 214);
-  width: 400px;
+  background-color: rgb(221, 214, 214);
+  width: 450px;
+  height: 480px;
   margin: auto;
-  border-radius: 10px;
-  box-shadow: 5px; */ 
+  border-radius: 5px;
+  box-shadow: 5px;
+  margin-top: 20px;
 
 }
 #numberBox{
@@ -28,14 +30,14 @@ button{
   padding: 10px 20px;
   text-align: center;
   color: white;
-  background-color: rgb(105, 105, 198);
+  background-color: hsl(0, 86%, 61%);
   border-radius: 5px;
   margin-top: 70px;
   font-size: 1.5em;
   cursor: pointer;
 }
 button:hover{
-  background-color: rgb(67, 8, 230);
+  background-color: hsl(0, 90%, 52%);
   
 }
 
@@ -47,7 +49,8 @@ label{
 }
 
 p{
-  font-size: 1.5em;
+  font-size: 1.7em;
   font-weight: bold;
+  color: hsl(0, 81%, 66%);
 }
 
