@@ -1,0 +1,53 @@
+body{
+  font-family: Helvetica, sans-serif;
+  background-color: rgb(206, 203, 203);
+}
+
+h1{
+  color: rgb(105, 105, 198);
+}
+
+form{
+  text-align: center;
+  padding: 10px 20px;
+  /* background-color: rgb(221, 214, 214);
+  width: 400px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 5px; */ 
+
+}
+#numberBox{
+  padding: 5px 10px;
+  font-size: 1.5em;
+  border-radius: 5px;
+  margin:50px 0px;
+}
+
+button{
+  padding: 10px 20px;
+  text-align: center;
+  color: white;
+  background-color: rgb(105, 105, 198);
+  border-radius: 5px;
+  margin-top: 70px;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgb(67, 8, 230);
+  
+}
+
+label{
+  font-size: 1.5em;
+  font-weight: bold;
+
+  
+}
+
+p{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
